@@ -4,12 +4,13 @@ language:
 license: cc-by-4.0
 task_categories:
 - visual-question-answering
-- multimodal
+- image-text-to-text
 tags:
 - mllm
 - visualization
 - benchmark
 - structured-data
+- multimodal
 size_categories:
 - 1K<n<10K
 dataset_info:
@@ -50,8 +51,8 @@ dataset_info:
 
 ## Dataset Description
 
-- **Homepage:** [https://huggingface.co/datasets/anonymous/structviz-bench](https://huggingface.co/datasets/anonymous/structviz-bench)
-- **Repository:** [https://github.com/anonymous/StructViz-Bench](https://github.com/anonymous/StructViz-Bench)
+- **Homepage:** [https://huggingface.co/datasets/EvalData/StructViz-Bench](https://huggingface.co/datasets/EvalData/StructViz-Bench)
+- **Repository:** [https://github.com/evaldataset/StructViz-Bench](https://github.com/evaldataset/StructViz-Bench)
 - **Paper:** StructViz-Bench: A Unified Benchmark for Evaluating MLLM Reasoning over Visualized Structured Data
 - **Point of Contact:** Anonymous
 - **License:** CC-BY-4.0

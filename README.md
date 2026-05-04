@@ -3,6 +3,7 @@
 A Unified Benchmark for Evaluating MLLM Reasoning over Visualized Structured Data
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-StructViz--Bench-yellow)](https://huggingface.co/datasets/EvalData/StructViz-Bench)
 
 StructViz-Bench is a unified benchmark for systematically evaluating how visualization format affects MLLM reasoning across tabular, time-series, and graph data. By keeping underlying data and question semantics fixed while varying the visual representation, it enables direct measurement of visualization sensitivity across 14 visualization types and 73,260 evaluated instances.
 
@@ -133,7 +134,7 @@ StructViz-Bench/
 @inproceedings{structvizbench2026,
   title={StructViz-Bench: A Unified Benchmark for Evaluating MLLM Reasoning over Visualized Structured Data},
   author={Anonymous},
-  booktitle={NeurIPS 2026 Datasets and Benchmarks Track},
+  booktitle={NeurIPS 2026 Evaluations and Datasets Track},
   year={2026}
 }
 ```

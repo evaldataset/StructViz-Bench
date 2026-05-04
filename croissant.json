@@ -51,7 +51,7 @@
   ],
   "name": "StructViz-Bench",
   "description": "StructViz-Bench is a controlled benchmark for evaluating visualization-format dependence in Multimodal Large Language Model (MLLM) performance on structured data. It fixes data and question semantics while varying only the rendering format to measure how visualization choice affects measured accuracy, across tabular, time-series, and graph modalities with 14 distinct visualization types.",
-  "url": "https://huggingface.co/datasets/anonymous/structviz-bench",
+  "url": "https://huggingface.co/datasets/EvalData/StructViz-Bench",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "datePublished": "2026-04-01",
   "version": "1.0.0",
@@ -60,7 +60,7 @@
     {
       "@type": "sc:Organization",
       "name": "Anonymous",
-      "url": "https://huggingface.co/datasets/anonymous/structviz-bench"
+      "url": "https://huggingface.co/datasets/EvalData/StructViz-Bench"
     }
   ],
   "citeAs": "@inproceedings{structvizbench2026, title={StructViz-Bench: A Controlled Benchmark for Evaluating Visualization-Format Dependence in MLLM Performance on Structured Data}, author={Anonymous}, booktitle={NeurIPS 2026 Evaluations and Datasets Track}, year={2026}}",
@@ -93,7 +93,7 @@
       "description": "Synthetic-only single-modality items: 1,500 questions (500 tabular + 500 time-series + 500 graph) from programmatically generated data.",
       "contentUrl": "benchmark/base_items.jsonl",
       "encodingFormat": "application/jsonlines",
-      "sha256": ""
+      "sha256": "5d77094f209cb6e4d2fc2cbcd87da1f5dc55679b606f28798ddd26e0d9bc7e5b"
     },
     {
       "@type": "cr:FileObject",
@@ -102,7 +102,7 @@
       "description": "Cross-modal composite evaluation items (600 items) requiring reasoning across two data modalities simultaneously (tabular+timeseries, tabular+graph, timeseries+graph).",
       "contentUrl": "benchmark/mixed_items.jsonl",
       "encodingFormat": "application/jsonlines",
-      "sha256": ""
+      "sha256": "06f022e16dda6f35e8dbb01e1c8dd73ad6b981b399a4c7606b1943da78313d91"
     },
     {
       "@type": "cr:FileObject",
@@ -111,7 +111,7 @@
       "description": "Full benchmark (3,795 items): superset containing all 1,500 synthetic items plus 2,295 real-world items (1,265 SciTabAlign tabular + 870 ETT time-series + 160 NetworkX graph). This is the primary evaluation file. Use the source field to filter by provenance.",
       "contentUrl": "benchmark/realworld_test.jsonl",
       "encodingFormat": "application/jsonlines",
-      "sha256": ""
+      "sha256": "6ef2baf69daefac216200fbcc87df7087bb88e6d987390f64ce24364a2138779"
     }
   ],
   "recordSet": [
