@@ -52,7 +52,7 @@ dataset_info:
 ## Dataset Description
 
 - **Homepage:** [https://huggingface.co/datasets/EvalData/StructViz-Bench](https://huggingface.co/datasets/EvalData/StructViz-Bench)
-- **Repository:** [https://github.com/evaldataset/StructViz-Bench](https://github.com/evaldataset/StructViz-Bench)
+- **Repository (anonymized for review):** [https://anonymous.4open.science/r/StructViz-Bench](https://anonymous.4open.science/r/StructViz-Bench)
 - **Paper:** StructViz-Bench: A Unified Benchmark for Evaluating MLLM Reasoning over Visualized Structured Data
 - **Point of Contact:** Anonymous
 - **License:** CC-BY-4.0
